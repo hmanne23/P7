@@ -6,5 +6,5 @@ Charan
 ## Developers
 - Abhinav
 - Sameeksha
-- Harshita
+- Harshitha
 - Goutam
