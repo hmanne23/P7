@@ -149,7 +149,7 @@ class UserPhotos extends React.Component {
 
     return (
       <div>
-        <TopBar topName={topNameValue} />
+        <TopBar topName={topNameValue} user={user}/>
         <Button
           component={Link}
           to={`/users/${userId}`}
