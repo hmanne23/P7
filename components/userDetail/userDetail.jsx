@@ -46,7 +46,7 @@ class UserDetail extends React.Component {
     const topNameValue = user ? `User details for ${user.first_name} ${user.last_name}` : '';
     return (
       <div>
-        <TopBar topName={topNameValue} />
+        <TopBar topName={topNameValue} user={user}/>
         {user ? (
           <div>
             <Grid container justifyContent="space-between">
